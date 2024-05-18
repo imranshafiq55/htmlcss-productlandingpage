@@ -1,0 +1,77 @@
+body{
+    background-color: lightgrey;
+  
+  }
+  h1{
+    color: darkgreen;
+  }
+  a {
+      text-decoration: none;
+  }
+  ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  #nav-bar{
+  position: fixed;
+    top: 10px;
+    display: flex; 
+  flex-direction: row;
+    align-items: center; justify-content: space-evenly; 
+    width: 100%; 
+  }
+  .nav-link{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    
+  
+  }
+  .nav-link:hover{
+    background-color: darkgreen;
+  }
+  .nav-link::visited{
+    background-color: green;
+  }
+  #header-img{
+    width: 100px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  #pricing h1:nth-of-type(1){
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+  }
+  .pricing{
+    display: flex;
+    align-items: flex-center;
+    justify-content: space-between;
+    flex-direction: column;
+    background: lightyellow;
+    border: solid yellow 5px;
+    color: darkblue;
+  }
+  
+  footer{
+    color: brown;
+  }
+  .form-group{
+    background-color:lightyellow; 
+  }
+  #submit{
+    background-color: lightgreen;
+    border: solid darkgreen 3px;
+  margin-top: 10px;
+  top: 10px;
+  right: 10px;
+  }
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
